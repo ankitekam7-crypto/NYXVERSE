@@ -1,1 +1,45 @@
 # NYXVERSE
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>NYXVERSE</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">NYXVERSE</div>
+
+<nav>
+
+<ul>
+
+<li onclick="showPage('nyxai')">NYX AI</li>
+
+<li onclick="showPage('studio')">Create Studio</li>
+
+<li onclick="showPage('learning')">Learning to Earning</li>
+
+<li onclick="showPage('login')">Login</li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+<!-- MAIN CONTENT -->
+
+<div id="content"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
